@@ -1,0 +1,338 @@
+create new branch in main branch
+ex.feat-dev
+we can some changes in that file
+<li>hi</li>
+<li>hello</li>
+
+
+...............................*********************......................
+There are 2 way to create branch
+
+1.git branch <branch name>
+2.git branch 
+	* main
+	ak
+git checkout ak
+	main 
+	*ak
+this is another way
+git checkout -b ak
+
+
+1.git add .
+2.git commit -m "Any message"
+3.git push again ak main
+
+
+git diff-what we have changed here
+******************************************************************************************
+
+
+Microsoft Windows [Version 10.0.19043.1526]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\vaibhav.rahinj>cd Desktop
+
+C:\Users\vaibhav.rahinj\Desktop>cd html
+
+C:\Users\vaibhav.rahinj\Desktop\html>dir
+ Volume in drive C is Windows
+ Volume Serial Number is BA05-61D7
+
+ Directory of C:\Users\vaibhav.rahinj\Desktop\html
+
+06/29/2022  10:44 AM    <DIR>          .
+06/29/2022  10:44 AM    <DIR>          ..
+06/29/2022  02:48 PM             2,535 html.html
+               1 File(s)          2,535 bytes
+               2 Dir(s)  445,114,449,920 bytes free
+
+C:\Users\vaibhav.rahinj\Desktop\html>git init
+Initialized empty Git repository in C:/Users/vaibhav.rahinj/Desktop/html/.git/
+
+C:\Users\vaibhav.rahinj\Desktop\html>ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (C:\Users\vaibhav.rahinj/.ssh/id_rsa):
+Created directory 'C:\Users\vaibhav.rahinj/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in C:\Users\vaibhav.rahinj/.ssh/id_rsa.
+Your public key has been saved in C:\Users\vaibhav.rahinj/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:KnVL47J5a/b8M7XYDkchiEniEPrr4oZMryccWPKb8bo corp\vaibhav.rahinj@9N1CJL3
+The key's randomart image is:
++---[RSA 3072]----+
+|    o.. .        |
+|   . o o o .     |
+|  .   . o . . .  |
+|. ..         . . |
+|.+  . . S     .  |
+|.oo  o = o   ..  |
+|+.o=o o o   .+.. |
+|.+=+.. ++.  +oo  |
+| +E+. o+.oo..+.  |
++----[SHA256]-----+
+
+C:\Users\vaibhav.rahinj\Desktop\html>cd C:\Users\vaibhav.rahinj/.ssh
+
+C:\Users\vaibhav.rahinj\.ssh>cd C:\Users\vaibhav.rahinj/.ssh
+
+C:\Users\vaibhav.rahinj\.ssh>code .
+
+C:\Users\vaibhav.rahinj\.ssh>cd..
+
+C:\Users\vaibhav.rahinj>cd Desktop
+
+C:\Users\vaibhav.rahinj\Desktop>cd html
+
+C:\Users\vaibhav.rahinj\Desktop\html>git init
+Reinitialized existing Git repository in C:/Users/vaibhav.rahinj/Desktop/html/.git/
+
+C:\Users\vaibhav.rahinj\Desktop\html>git remote add origin git@github.com:Vaibhavrahinj/firist-project.git
+
+C:\Users\vaibhav.rahinj\Desktop\html>git remote -v
+origin  git@github.com:Vaibhavrahinj/firist-project.git (fetch)
+origin  git@github.com:Vaibhavrahinj/firist-project.git (push)
+
+C:\Users\vaibhav.rahinj\Desktop\html>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        html.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\vaibhav.rahinj\Desktop\html>git add .
+
+C:\Users\vaibhav.rahinj\Desktop\html>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   html.html
+
+
+C:\Users\vaibhav.rahinj\Desktop\html> git commit -m "My first project"
+[master (root-commit) 59c97ab] My first project
+ Committer: Vaibhav Rahinj <vaibhav.rahinj@olacabs.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 76 insertions(+)
+ create mode 100644 html.html
+
+C:\Users\vaibhav.rahinj\Desktop\html>git branch -M main
+
+C:\Users\vaibhav.rahinj\Desktop\html>git branch
+* main
+
+C:\Users\vaibhav.rahinj\Desktop\html>git push -u origin main
+The authenticity of host 'github.com (13.234.176.102)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 1.15 KiB | 1.15 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:Vaibhavrahinj/firist-project.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+C:\Users\vaibhav.rahinj\Desktop\html>git add .
+
+C:\Users\vaibhav.rahinj\Desktop\html>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\Users\vaibhav.rahinj\Desktop\html>git branch
+* main
+
+C:\Users\vaibhav.rahinj\Desktop\html>git branch test
+
+C:\Users\vaibhav.rahinj\Desktop\html>git branch
+* main
+  test
+
+C:\Users\vaibhav.rahinj\Desktop\html>git checkout test
+Switched to branch 'test'
+
+C:\Users\vaibhav.rahinj\Desktop\html>git branch
+  main
+* test
+
+C:\Users\vaibhav.rahinj\Desktop\html>git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+C:\Users\vaibhav.rahinj\Desktop\html>git checkout -b feat-dev
+Switched to a new branch 'feat-dev'
+
+C:\Users\vaibhav.rahinj\Desktop\html>git branch
+* feat-dev
+  main
+  test
+
+C:\Users\vaibhav.rahinj\Desktop\html>code .
+
+C:\Users\vaibhav.rahinj\Desktop\html>git status
+On branch feat-dev
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   html.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\vaibhav.rahinj\Desktop\html>git add html.html
+
+C:\Users\vaibhav.rahinj\Desktop\html>git status
+On branch feat-dev
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   html.html
+
+
+C:\Users\vaibhav.rahinj\Desktop\html>git diff
+diff --git a/html.html b/html.html
+index f98e18a..358b2c2 100644
+--- a/html.html
++++ b/html.html
+@@ -68,7 +68,7 @@
+           </span> -->
+     </div>
+     <ul class="list-disc">
+-  <li>hi Hello all</li>
++  <li>hi Hello Guys</li>
+   <!-- ... -->
+ </ul>
+
+
+C:\Users\vaibhav.rahinj\Desktop\html>git add .
+
+C:\Users\vaibhav.rahinj\Desktop\html>git diff
+
+C:\Users\vaibhav.rahinj\Desktop\html>git status
+On branch feat-dev
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   html.html
+
+
+C:\Users\vaibhav.rahinj\Desktop\html>git commit -m "html:list is updated"
+[feat-dev 5c7c3f6] html:list is updated
+ Committer: Vaibhav Rahinj <vaibhav.rahinj@olacabs.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\vaibhav.rahinj\Desktop\html>git push origin feat-dev
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 300 bytes | 300.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'feat-dev' on GitHub by visiting:
+remote:      https://github.com/Vaibhavrahinj/firist-project/pull/new/feat-dev
+remote:
+To github.com:Vaibhavrahinj/firist-project.git
+ * [new branch]      feat-dev -> feat-dev
+
+C:\Users\vaibhav.rahinj\Desktop\html>git pull origin main
+remote: Enumerating objects: 1, done.
+remote: Counting objects: 100% (1/1), done.
+remote: Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (1/1), 638 bytes | 27.00 KiB/s, done.
+From github.com:Vaibhavrahinj/firist-project
+ * branch            main       -> FETCH_HEAD
+   59c97ab..d2522d1  main       -> origin/main
+Updating 5c7c3f6..d2522d1
+Fast-forward
+
+C:\Users\vaibhav.rahinj\Desktop\html>git fetch
+
+C:\Users\vaibhav.rahinj\Desktop\html>git status
+On branch feat-dev
+nothing to commit, working tree clean
+
+C:\Users\vaibhav.rahinj\Desktop\html>git status
+On branch feat-dev
+nothing to commit, working tree clean
+
+C:\Users\vaibhav.rahinj\Desktop\html>git fetch
+
+C:\Users\vaibhav.rahinj\Desktop\html>git status
+On branch feat-dev
+nothing to commit, working tree clean
+
+C:\Users\vaibhav.rahinj\Desktop\html>git branch
+* feat-dev
+  main
+  test
+
+C:\Users\vaibhav.rahinj\Desktop\html>git checkout main
+Switched to branch 'main'
+Your branch is behind 'origin/main' by 2 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+C:\Users\vaibhav.rahinj\Desktop\html>git status
+On branch main
+Your branch is behind 'origin/main' by 2 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+nothing to commit, working tree clean
+
+C:\Users\vaibhav.rahinj\Desktop\html>git branch
+  feat-dev
+* main
+  test
+
+C:\Users\vaibhav.rahinj\Desktop\html>git branch -d feat-dev test
+error: The branch 'feat-dev' is not fully merged.
+If you are sure you want to delete it, run 'git branch -D feat-dev'.
+Deleted branch test (was 59c97ab).
+
+C:\Users\vaibhav.rahinj\Desktop\html>git pull origin main
+From github.com:Vaibhavrahinj/firist-project
+ * branch            main       -> FETCH_HEAD
+Updating 59c97ab..d2522d1
+Fast-forward
+ html.html | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\vaibhav.rahinj\Desktop\html>git branch -d feat-dev
+Deleted branch feat-dev (was d2522d1).
+
+
+**************************************************************************************
+echo "Hi hello "> index.txt
