@@ -6,3 +6,8 @@ nums.forEach((n,i,nums)=>{
     console.log(n,i,nums);
     
 })
+
+history
+
+
+
