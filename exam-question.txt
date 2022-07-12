@@ -1,0 +1,436 @@
+How do you find a list of files that have been changed in a particular commit?
+
+Write your answer here...
+
+What does the command git config do?
+
+
+Write your answer here...
+
+One of your teammates accidentally deleted a branch, and has already pushed the changes to the central git repo. There are no other git repos, and none of your other teammates had a local copy. How would you recover this branch?
+
+
+Write your answer here...
+
+How can you explicitly reorder items in a flexbox container?
+
+
+
+
+Write your answer here...
+
+Save Answers
+
+
+
+What is a merge conflict in Git?
+An event when Git is unable to resolve differences in code between the two commits automatically.
+An event when Git is having an issue adding permissions for a user.
+An event when Git automatically merges two commits from different users.
+An event when Git is unable to save a commit pushed up to the main branch.
+Which of these Git commands does the following?
+
+- Incorporates all the new commits in the master branch
+- Rewrites the project history by creating brand new commits for each commit in the original branch
+git stash
+git rebase
+git combine
+git push
+Which Git command enables you to pick up commits from a branch within a repository and apply it to another branch?
+git apply
+git merge
+git commit
+git cherry-pick
+What file is needed in a project root to track the commits in Git?
+.track file
+.git file
+.git-track file
+.__git file
+In the following example, which selector has the highest specificity ranking for selecting the anchor link element?
+
+
+
+ul li a
+
+a
+
+.example a
+
+div a
+
+
+
+
+.example a
+
+
+div a
+
+
+a
+
+
+ul li a
+
+When adding transparency styles, what is the difference between using the opacity property versus the background property with an rgba() value?
+
+
+Opacity specifies the level of transparency of an element, including its content. Background with an rgba() value applies transparency to the background color only.
+
+
+Opacity specifies the level of transparency of the child elements. Background with an rgba() value applies transparency to the background color only.
+
+
+Opacity applies transparency to the parent and child elements. Background with an rgba() value specifies the level of transparency of the parent element only.
+
+
+Opacity applies transparency to the background color only. Background with an rgba() value specifies the level of transparency of an element, as a whole, including its content.
+
+CSS grid introduced a new length unit, fr, to create flexible grid tracks. Referring to the code sample below, what will the widths of the three columns be?
+
+
+
+.grid {
+
+  display: grid;
+
+  width: 500px;
+
+  grid-template-columns: 50px 1fr 2fr;
+
+}
+
+
+
+
+The first column will have a width of 50px. The second column will be 150px wide and the third column will be 300px wide.
+
+
+The first column will have a width of 50px. The second column will be 300px wide and the third column will be 150px wide.
+
+
+The first column will have a width of 50px. The second column will be 50px wide and the third column will be 100px wide.
+
+
+The first column will have a width of 50px. The second column will be 500px wide and the third column will be 1000px wide.
+
+What are three valid ways of adding CSS to an HTML page?
+
+
+1. External; CSS is written in a separate file and is linked within the <header> element of the HTML file.
+
+2. Inline; CSS is added to the HTML tag.
+
+3. Internal; CSS is included within the <header> element of the HTML file.
+
+
+
+
+1. External; CSS is written in a separate file and is linked within the <head> element of the HTML file .
+
+2. Inline; CSS is added to the HTML tag.
+
+3. Internal; CSS is included within the <head> element of the HTML file.
+
+
+
+
+1. External; CSS is written in a separate file and is linked within the <head> element of the HTML file.
+
+2. Internal; CSS is included within the <header> element of the HTML file.
+
+3. Inline; CSS is added to the HTML tag.
+
+
+
+
+1. External; CSS is written in a separate file.
+
+2. Inline; CSS is added to the <head> of the HTML page.
+
+3. Internal; CSS is included within the HTML tags.
+
+
+
+Review the text in the red box in the image shown. What is the best way to code this in HTML?
+
+
+
+
+ordered list
+
+
+unordered list inside a nav element
+
+
+unordered list
+
+
+ordered list inside a nav element
+
+What is the best way to code the sample shown?
+
+
+
+
+<details open>
+
+  <summary>Parmesan Deviled Eggs</summary>
+
+  <p>
+
+    These delectable little bites are made with organic eggs, fresh Parmesan, and chopped pine nuts.
+
+  </p>
+
+</details>
+
+
+
+
+<h4>▸ Parmesan Deviled Eggs</h4>
+
+<p>
+
+  These delectable little bites are made with organic eggs, fresh Parmesan, and chopped pine nuts.
+
+</p>
+
+
+
+
+<details>
+
+  <summary>Parmesan Deviled Eggs</summary>
+
+  <p>
+
+    These delectable little bites are made with organic eggs, fresh Parmesan, and chopped pine nuts.
+
+  </p>
+
+</details>
+
+
+
+
+<details>
+
+  <h4>▸ Parmesan Deviled Eggs</h4>
+
+  <p>
+
+    These delectable little bites are made with organic eggs, fresh Parmesan, and chopped pine nuts.
+
+  </p>
+
+</details>
+
+
+
+What is the purpose of the <track> tag, and when should it be used?
+
+
+The <track> tag is used for specifying subtitles, captions, and other types of time-based text. It is typically applied as a child of the <audio> and <video> tag.
+
+
+The <track> tag is used for specifying subtitles. It is typically applied as a child of the <video> tag.
+
+
+The <track> tag is used for specifying subtitles. It is typically applied as a child of the <audio> and <video> tags.
+
+
+The <track> tag is used for specifying subtitles. It is typically applied as a child of the <audio> and <video> tags.
+
+What should fill the two blanks in the HTML code below?
+
+
+
+<address ______ _____>
+
+  <span itemprop="streetAddress">6410 Via Real</span><br />
+
+  <span itemprop="addressLocality">Carpinteria</span>,
+
+  <span itemprop="addressRegion">CA</span>
+
+  <span itemprop="addressCode">93013</span>
+
+</address>
+
+
+
+
+itemscope itemtype="http://schema.org/PostalAddress"
+
+
+itemid="address" itemtype="http://schema.org/PostalAddress"
+
+
+itemscope itemref="http://schema.org/PostalAddress"
+
+
+itemsref="http://schema.org/PostalAddress" itemid="address"
+
+What is the difference between the <div> and <span> tags?
+
+
+<div> is used for major divisions on a page, while <span> is used to span across columns.
+
+
+<div> is used where a generic inline tag is needed, while <span> is used where a generic block-level tag is needed.
+
+
+<div> is used where a generic block-level tag is needed, while <span> is used where a generic inline tag is needed.
+
+
+<div> is the industry-standard default tag, but you could use <span> if you prefer.
+
+Describe what the following git commands do to the commit history.
+
+	
+
+git reset --hard HEAD~5
+
+git merge --squash HEAD@{1}
+
+Reset the commit branch back before the last 5 commits, then squashes them into a single commit
+
+
+Delete the last 5 commits
+
+
+Merges the last 5 commits into a new branch
+
+
+Reset the HEAD to the 5th commit in the repo, then merges to the master branch
+
+ Looking at the following commands, describe what is happening.
+
+git checkout feature-user-location
+
+git cherry-pick kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231
+
+A commit is being copied from its original branch over to the feature-user-location branch
+
+
+The commit is being tagged for release on the feature-user-location branch
+
+
+A commit is being copied from the feature-user-location branch to the master branch
+
+
+he commit is being cherry picked as the new HEAD of the commit history
+
+
+The branch is switched to the feature-user-location branch, and the specified commit is applied to the branch.
+
+What is the difference between a soft reset (git reset --soft) and a hard reset (git reset –hard) ?
+
+
+A hard reset caches the old HEAD pointer, while a soft reset deletes it entirely.
+
+
+A soft reset only changes the commit that HEAD points to, while a hard reset resets the index and working tree to match the specified commit, discarding any changes.
+
+
+A hard reset changes only where the HEAD is pointing, while a soft reset changes the HEAD and index.
+
+
+A soft reset caches the old HEAD pointer, while a hard reset deletes it entirely.
+
+Consider the following Git workflow:
+
+
+
+
+
+
+
+Which of the following options is correct ?
+
+
+
+
+1. Develop 2. Release 3. Hotfix 4. Feature 5. Master
+
+
+1. Master 2. Hotfix 3. Develop 4. Feature 5. Release
+
+
+1. Develop 2. Master 3. Hotfix 4. Feature 5. Develop
+
+
+1. Master 2. Release 3. Hotfix 4. Feature 5. Develop
+
+What files is this .gitignore programmed to leave out?
+
+#.swift
+build/
+
+*.txt
+*.metadata
+
+All files with a .swift, .txt, or metadata file extension, as well as the entire build directory
+
+
+Only files with .swift and .txt extensions.
+
+
+All files in the build directory, as well as files ending with .txt or .metadata
+
+
+Only the build directory
+
+What will be the width of the div element given below?
+
+div {
+
+  width: 310px;
+
+  padding: 20px;
+
+  border: 5px solid blue;
+
+  margin: 0;
+
+}
+
+
+360px
+
+
+None of the Above
+
+
+350px
+
+
+330px
+
+
+310px
+
+ 
+
+In the below code snippet, in what order will the margins be added?
+
+p {
+
+  margin: 25px 50px 75px 100px;
+
+}
+
+
+Top, Right, Bottom, Left
+
+
+Top, Bottom, Right, Left
+
+
+Right, Left, Top, Bottom
+
+
+Top, Left, Bottom, Right
+
+Save Answers
