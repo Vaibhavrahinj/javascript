@@ -1,0 +1,590 @@
+exam question 2
+
+
+const shape = {
+  radius: 10,
+  diameter() {
+    return this.radius * 2;
+  },
+  perimeter: () => 2 * Math.PI * this.radius,
+};
+
+console.log(shape.diameter());
+
+console.log(shape.perimeter());
+
+20 and 62.83185307179586
+
+
+20 and NaN
+
+
+20 and 63
+
+
+NaN and 63
+
+console.log(+true);
+console.log(!'Lydia');
+
+false and NaN
+
+
++true and Lydia
+
+
+1 and false
+
+
+false and false
+
+What will be the output of the following code snippet?
+
+<script type="text/javascript">
+	const a = 5 + "9";
+    document.write(a);
+</script>
+
+
+
+Runtime Error
+
+
+14
+
+
+59
+
+
+Compilation Error
+
+What will be the output of the following code snippet?
+
+<script type="text/javascript" language="javascript">
+  var a = "Scaler";
+  var result = a.substring(2, 4);
+  document.write(result);
+</script>
+
+
+
+al
+
+
+ale
+
+
+caler
+
+
+cal
+
+What keyword is used to check whether a given property is valid or not?
+
+
+in
+
+
+exists
+
+
+lies
+
+
+is in
+
+What will be the output of the following code snippet?
+
+(function(){
+  setTimeout(()=> console.log(1),2000);
+  console.log(2);
+  setTimeout(()=> console.log(3),0);
+  console.log(4);
+})();
+
+2 3 4 1
+
+
+2 4 3 1
+
+
+4 3 2 1
+
+
+1 2 3 4
+
+What will be the output of the following code snippet?
+
+var a = 1;  
+var b = 0;  
+while (a <= 3)  
+{  
+  a++;  
+  b += a * 2;  
+  console.log(b);
+}
+
+4 10 18
+
+
+None of above
+
+
+1 2 3
+
+
+1 4 3
+
+What will be the output of the following code snippet?
+
+function solve(arr, rotations){
+ if(rotations == 0) return arr;
+ for(let i = 0; i < rotations; i++){
+   let element = arr.pop();
+   arr.unshift(element);
+ }
+ return arr;
+}
+
+console.log(solve([44, 1, 22, 111], 5));
+
+[111, 44, 1, 22]
+
+
+[44, 1, 22, 111]
+
+
+[1, 22, 111, 44]
+
+
+[111, 44, 1, 5]
+
+What's the output?
+
+let a = 3;
+let b = new Number(3);
+let c = 3;
+
+console.log(a == b);
+console.log(a === b);
+console.log(b === c);
+
+false true true
+
+
+false false true
+
+
+true false false
+
+
+true false true
+
+What happens when we do this?
+
+function bark() {
+  console.log('Woof!');
+}
+
+bark.animal = 'dog';
+
+ReferenceError
+
+
+"Woof" gets logged.
+
+
+Nothing, this is totally fine!
+
+
+SyntaxError. You cannot add properties to a function this way.
+
+Do all objects have prototypes?
+
+
+It depends on build in JavaScript Memory Allocation.
+
+
+No, All objects have prototypes except for the base object which is created by the user, or an object that is created using the new keyword.
+
+
+Yes, JavaScript provides prototypes for all objects.
+
+What's the output?
+
+function Person(firstName, lastName) {
+  this.firstName = firstName;
+  this.lastName = lastName;
+}
+
+const member = new Person('Lydia', 'Hallie');
+Person.getFullName = function() {
+  return `${this.firstName} ${this.lastName}`;
+};
+
+console.log(member.getFullName());
+
+TypeError
+
+
+undefined undefined
+
+
+Lydia Hallie
+
+
+SyntaxError
+
+What's the output?
+
+let number = 0;
+console.log(number++);
+console.log(++number);
+console.log(number);
+
+0 1 2
+
+
+1 2 2
+
+
+0 2 2
+
+
+1 1 2
+
+What is the output?
+
+var status = '😎';
+
+setTimeout(() => {
+  const status = '😍';
+
+  const data = {
+    status: '🥑',
+    getStatus() {
+      return this.status;
+    },
+  };
+
+  console.log(data.getStatus());
+  console.log(data.getStatus.call(this));
+}, 0);
+
+"🥑" and "😎"
+
+
+"😎" and "😎"
+
+
+"😍" and "😎"
+
+
+"🥑" and "😍"
+
+What's the output?
+
+const person = {
+  firstName: 'Lydia',
+  lastName: 'Hallie',
+  pet: {
+    name: 'Mara',
+    breed: 'Dutch Tulip Hound',
+  },
+  getFullName() {
+    return `${this.firstName} ${this.lastName}`;
+  },
+};
+
+console.log(person.pet?.name);
+console.log(person.pet?.family?.name);
+console.log(person.getFullName?.());
+console.log(member.getLastName?.());
+
+null ReferenceError null ReferenceError
+
+
+Mara undefined Lydia Hallie ReferenceError
+
+
+undefined undefined undefined undefined
+
+
+Mara null Lydia Hallie null
+
+What is the output of below spread operator array
+
+[..."John Resig"];
+
+['John', 'Resig']
+
+
+['J', 'o', 'h', 'n', '', 'R', 'e', 's', 'i', 'g']
+
+
+None of above
+
+
+['John Resig']
+
+What's the output?
+
+function addToList(item, list) {
+  return list.push(item);
+}
+
+const result = addToList('apple', ['banana']);
+console.log(result);
+
+true
+
+
+2
+
+
+undefined
+
+
+['apple', 'banana']
+
+What's the output?
+
+const array = { x: 10, y: 20 };
+
+
+Object.freeze(array);
+
+const object = array;
+object.x = 100;
+
+console.log(object.x, array['x']);
+
+10 10
+
+
+10 0
+
+
+100 0
+
+
+100 10
+
+What's the output?
+
+const result = [1, 2, 3].filter(num => {
+  return num % 2;
+});
+console.log(result);
+
+[1, 3]
+
+
+[1, 2, 3]
+
+
+[true, false]
+
+
+[1, 0, 1]
+
+Which operator returns true if the two compared values are not equal?
+
+
+~
+
+
+==!
+
+
+!==
+
+
+<>
+
+What's the output?
+
+function sum(x, y, z) {
+  return ++x + y + z;
+}
+
+const numbers = [1, 2, 3];
+console.log(sum(...numbers));
+
+Error
+
+
+6
+
+
+7
+
+
+Function Prototype
+
+Which Object method returns an iterable that can be used to iterate over the properties of an object?
+
+
+Object.loop()
+
+
+Object.get()
+
+
+Object.keys()
+
+
+Object.each()
+
+For the following class, how do you get the value of 42 from an instance of X?
+
+class X {
+  get Y() {
+    return 42;
+  }
+}
+
+x.get().Y
+
+
+x.Y
+
+
+x.get('Y')
+
+
+x.Y()
+
+How would you use the TaxCalculator to determine the amount of tax on $50?
+
+class TaxCalculator {
+  static calculate(total) {
+    return total * 0.05;
+  }
+}
+
+calculate(50);
+
+
+new TaxCalculator().calculate(50);
+
+
+new TaxCalculator().calculate($50);
+
+
+TaxCalculator.calculate(50);
+
+Which one of the following is an ternary operator?
+
+
+-
+
+
+:
+
+
++
+
+
+?
+
+What will happen?
+
+let config = {
+  alert: setInterval(() => {
+    console.log('Alert!');
+  }, 1000),
+};
+
+
+config = null;
+
+We never invoked config.alert(), config is null
+
+
+The setInterval callback gets invoked once
+
+
+The setInterval callback won't be invoked
+
+
+The setInterval callback will still be called every second
+
+What's the output?
+
+async function getData() {
+  return await Promise.resolve('I made it!');
+}
+
+
+const data = getData();
+console.log(data);
+
+Promise {<pending>}
+
+
+Promise {<resolved>: "I made it!"}
+
+
+undefined
+
+
+"I made it!"
+
+What's the output?
+
+console.log('I want pizza'[0]);
+
+SyntaxError
+
+
+"I"
+
+
+undefined
+
+
+"""
+
+What's the output?
+
+const numbers = [1, 2, 3, 4, 5];
+const [y] = numbers;
+
+
+console.log(y);
+
+[1, 2, 3, 4, 5]
+
+
+[1]
+
+
+[[1, 2, 3, 4, 5]]
+
+
+1
+
+What's the output?
+
+function getAge() {
+  'use strict';
+  age = 21;
+  console.log(age);
+}
+
+
+getAge();
+
+ReferenceError
+
+
+TypeError
+
+
+21
+
+
+undefined
+
+Save Answers
